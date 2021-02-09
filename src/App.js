@@ -9,6 +9,7 @@ function App() {
       <EasybaseProvider ebconfig={ebconfig}>
         <Notes />
         <NewTemButton />
+        <Router/>
       </EasybaseProvider>
     </div>
   );
